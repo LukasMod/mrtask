@@ -8,7 +8,15 @@ export const spacing = {
   xl: 32,
   xxl: 48,
   xxxl: 64,
-} as const
+} as const;
 
-export type Spacing = keyof typeof spacing
+export type Spacing = keyof typeof spacing;
 
+export const hitslop = {
+  medium: {
+    top: 8,
+    left: 8,
+    right: 8,
+    bottom: 8,
+  },
+} as const;

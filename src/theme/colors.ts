@@ -15,6 +15,8 @@ const palette = {
   primary400: '#1AA7FF',
   primary500: '#3BAAFF',
   primary600: '#0088CC',
+
+  red500: '#c0392b',
 } as const;
 
 export const colors = {
@@ -26,4 +28,5 @@ export const colors = {
   border: palette.neutral400,
   tint: palette.primary500,
   separator: palette.neutral300,
+  error: palette.red500,
 };
