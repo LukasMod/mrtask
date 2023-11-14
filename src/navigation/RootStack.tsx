@@ -8,7 +8,11 @@ const Stack = createNativeStackNavigator<RootStackParamList>();
 export const RootStack = () => {
   return (
     <Stack.Navigator>
-      <Stack.Screen name="HomeScreen" component={HomeScreen} />
+      <Stack.Screen
+        name="HomeScreen"
+        component={HomeScreen}
+        options={{headerShown: false}}
+      />
       <Stack.Screen name="ItemScreen" component={ItemScreen} />
     </Stack.Navigator>
   );
